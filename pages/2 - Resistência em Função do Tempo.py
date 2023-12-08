@@ -14,7 +14,7 @@ dados = pd.read_csv("sample_data_clean.csv", sep = ",")
 # Subcabeçalho
 st.subheader('Resistência em Função do Tempo', divider = 'rainbow')
 
-# Filtro para selecionar tipos de micro-organismos (ds_micro_organismo)
+# Filtro para selecionar tipos de microrganismos (ds_micro_organismo)
 opcoes_microorganismo = st.multiselect('Selecione os tipos de microrganismos:', dados['ds_micro_organismo'].unique())
 
 # Filtro para selecionar condições de resistência das bactérias (cd_interpretacao_antibiograma)
